@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 6px solid black;
+
+    /* Display property is by default set to LTR and set to block level */
+    display: flex;
+
+    /* This will wrap the border around the children. The container will take enough width to accommodate  around the children*/
+    /* display: inline-flex; */
+
+
+    /* row, row-reversed, column and column-reversed*/
+    flex-direction: row;
+
+    height: 500px;
+
+    /* nowrap, wrap wrap-reversed */
+    /* Wrap reversed will push the last item about instead of below */
+    /* flex-wrap: wrap; */
+
+    /* flex-flow: column-reverse wrap; */
+
+    /* justify-content: center; 
+
+    align-items: baseline; */
+
+    /* align-content: space-between; */
+
+}
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-shrink: 1;
+    width: 8rem;
+}
+
+.item-1 {
+    background-color: rgb(235, 46, 46);
+    /* padding-bottom: 5rem; */
+    align-self: flex-start;
+
+}
+
+.item-2 {
+    background-color: rgb(57, 228, 94);
+    /* padding-bottom: 3rem; */
+    /* flex-shrink: 4; */
+    align-self: center;
+}
+
+.item-3 {
+    background-color: rgb(255, 73, 17);
+    /* padding-bottom: 9rem; */
+    align-self: flex-end;
+}
+
+.item-4 {
+    background-color: rgb(241, 56, 170);
+    align-self: stretch;
+}
+
+.item-5 {
+    background-color: rgb(29, 32, 211);
+}
+
+.item-6 {
+    background-color: rgb(70, 52, 52);
+}
+
+.item-7 {
+    background-color: rgb(54, 231, 231);
+   
+}
+
+.item-8 {
+    background-color: rgb(129, 131, 245);
+}
+
+.item-9 {
+    background-color: rgb(245, 35, 210);
+}
